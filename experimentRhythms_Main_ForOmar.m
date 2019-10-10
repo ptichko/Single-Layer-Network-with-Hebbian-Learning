@@ -67,6 +67,7 @@ disp(filename)
 
 %%%%%% Training Loops %%%%%%  
 for ii = 1:numTrain
+    
     ii
     M = odeRK4fs(M);                    
  
