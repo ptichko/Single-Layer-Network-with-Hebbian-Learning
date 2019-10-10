@@ -18,7 +18,7 @@
 % SIMPLIFIED AND MODIFIED FOR OMAR
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-%% Set Model Parameters
+%% Model Parameters
 
 %%%%%% Auditory Network Parameters %%%%%%
 alpha1 = .01; beta11 = -1; beta12 = -2;                    % Auditory Layer Oscillator Regime: Supercritical Hopf Regime 
