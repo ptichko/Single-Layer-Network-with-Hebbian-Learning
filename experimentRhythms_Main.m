@@ -15,8 +15,8 @@
 % 
 % Parker Tichko, 2019, parker.tichko@uconn.edu
 %
-% SIMPLIFIED AND MODIFIED FOR OMAR
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
+% SIMPLIFIED FOR GITHUB.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%s%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 %% Model Parameters
 
@@ -40,6 +40,7 @@ numTrain = 1;                                             % Number of training t
 %%%%%% Make stimulus %%%%%%  
 s = stimulusMake(1, 'mid', 'Iso_2_1_Original_120BBPM_32cycles.mid', 'display', 1);   % Western training rhythm
 %s = stimulusMake(1, 'mid', 'NonIso_3_2_Original_120BPM_32cycles.mid', 'display', 1); % Balkan training rhythm
+
 s.x = ampMult*s.x/rms(s.x);                                                          % Scale rhythm
 s.x = hilbert(s.x);
 
@@ -73,4 +74,7 @@ for ii = 1:numTrain
  
 end
 
+% Extra Heat Map
+% figure;
+% h = heatmap(M.n{1,1}.f,M.n{1,1}.f,abs(M.n{1,1}.con{1,2}.C))
 
