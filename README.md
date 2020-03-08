@@ -43,8 +43,9 @@ output is set to display oscillator amplitudes, the rhythmic stimulus in
 the time domain, and the connection matrix of the neural network. Here
 are some examples of the output at the end of training:
 
-These are the oscillator amplitudes after training the network on an
-isochronous-metered rhythm with a fast learning
+These are the oscillator amplitudes at the final time-point while
+training the network on an isochronous-metered rhythm with a fast
+learning
 rate:
 
 <p align="center">
@@ -54,8 +55,9 @@ width="600px">
 
 </p>
 
-This is the connection matrix of the network after training the network
-on an isochronous-metered rhythm with a fast learning rate. Lots of
+This is the connection matrix of the network at the final time-point of
+training the network on an isochronous-metered rhythm with a fast
+learning rate. Lots of
 learning\!
 
 <p align="center">
