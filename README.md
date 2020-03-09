@@ -32,7 +32,9 @@ lines of code that use the GrFNN library to create a rhythmic stimulus
 from a MIDI file:
 
 s = stimulusMake(1, ‘mid’, ‘Iso\_2\_1\_Original\_120BBPM\_32cycles.mid’,
-‘display’, 1); % Western training rhythm %s = stimulusMake(1, ‘mid’,
+‘display’, 1); % Western training rhythm
+
+% s = stimulusMake(1, ‘mid’,
 ‘NonIso\_3\_2\_Original\_120BPM\_32cycles.mid’, ‘display’, 1); %
 Balkan training rhythm
 
