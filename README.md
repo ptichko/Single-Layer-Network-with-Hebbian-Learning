@@ -8,11 +8,10 @@
 <!-- badges: end -->
 
 This is a MATLAB implementation of a single-layer gradient-frequency
-neural network based off of Tichko & Large (2019)
-(<https://doi.org/10.1111/nyas.14050>), who simulated infants’
+neural network based off of [Tichko & Large (2019)](<https://doi.org/10.1111/nyas.14050>), who simulated infants’
 perceptual narrowing to musical rhythm (e.g., Hannon & Trehub, 2005a,b).
-The model requires the gradient-frequency neural network (GrFNN) library
-for MATLAB (<https://github.com/MusicDynamicsLab/GrFNNToolbox>).
+The model requires the [gradient-frequency neural network (GrFNN) library
+for MATLAB](<https://github.com/MusicDynamicsLab/GrFNNToolbox>).
 
 ## The Model
 
